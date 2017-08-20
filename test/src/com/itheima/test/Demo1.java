@@ -22,5 +22,6 @@ public class Demo1 {
 		 */
 		Endpoint.publish("http://localhost:8090/helloService", helloService);
 		System.out.println("发布成功......");
+		System.out.println("==============");
 	}
 }
